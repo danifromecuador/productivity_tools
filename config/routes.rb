@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   root "home#index"
+
+  get 'alarm' => "alarm#index"
 end
