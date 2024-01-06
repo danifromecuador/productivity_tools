@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   root "home#index"
 
   get 'alarm' => "alarm#index"
+  get 'eisenhower' => "eisen_matrix#index"
 end
